@@ -1,0 +1,14 @@
+
+{
+  "name": "doctrac-server",
+  "version": "1.0.0",
+  "description": "Web server for the DocTrac AI application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "0.14.0",
+    "express": "^4.19.2"
+  }
+}
