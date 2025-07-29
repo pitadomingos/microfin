@@ -1,18 +1,6 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.js';
-
-declare global {
-    interface Window {
-        APP_CONFIG?: {
-            API_KEY?: string;
-            GOOGLE_CLIENT_ID?: string;
-        };
-        gapi: any;
-        google: any;
-    }
-}
+import App from './App';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -21,7 +9,5 @@ if (!rootElement) {
 
 const root = ReactDOM.createRoot(rootElement);
 root.render(
-  React.createElement(React.StrictMode, null,
-    React.createElement(App, null)
-  )
+  <App />
 );

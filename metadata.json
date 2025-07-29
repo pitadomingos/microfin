@@ -1,6 +1,6 @@
 {
-  "name": "DocTrac",
-  "description": "An intelligent document tracker for Jachris Mining Service that uses AI to streamline data entry. Manage your requisitions, quotes, purchase orders, and invoices efficiently.",
+  "name": "MicroFin",
+  "description": "A comprehensive microcredit management system designed to streamline loan management, user administration, and financial analysis. It features an AI-powered chatbot for assistance, a loan simulator, and detailed dashboards for risk and financial monitoring.",
   "requestFramePermissions": [],
   "prompt": ""
 }

@@ -1,7 +1,0 @@
-
-{
-  "name": "DocTrac",
-  "description": "An intelligent document tracker for Jachris Mining Service that uses AI to streamline data entry. Manage your requisitions, quotes, purchase orders, and invoices efficiently.",
-  "requestFramePermissions": [],
-  "prompt": ""
-}

@@ -1,14 +1,24 @@
-
 {
-  "name": "doctrac-server",
-  "version": "1.0.0",
-  "description": "Web server for the DocTrac AI application.",
-  "main": "server.js",
+  "name": "microfin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@google/genai": "0.14.0",
-    "express": "^4.19.2"
+    "@google/genai": "0.15.0",
+    "chart.js": "4.4.3",
+    "react": "^19.1.1",
+    "react-chartjs-2": "5.2.0",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "6.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.3.5"
   }
 }
